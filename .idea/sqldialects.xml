@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/bd_lab3/src/main/java/ru/itis/db/lab3/iskandar_11013.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/bd_lab4/src/main/java/ru/itis/db/lab4/iskandar_flights_11013.sql" dialect="PostgreSQL" />
+  </component>
+</project>

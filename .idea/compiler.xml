@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bd_lab4" />
+        <module name="lab3" />
+        <module name="lab4" />
+        <module name="bd_lab2" />
+        <module name="lab2" />
+        <module name="bd_lab3" />
+        <module name="semester_1" />
+        <module name="lab5" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bd_lab2" target="11" />
+      <module name="bd_lab3" target="11" />
+      <module name="bd_lab3 (1)" target="11" />
+      <module name="bd_lab4" target="14" />
+      <module name="dis" target="14" />
+      <module name="lab2" target="14" />
+      <module name="lab3" target="14" />
+      <module name="lab4" target="1.8" />
+      <module name="lab5" target="1.8" />
+      <module name="semester_1" target="14" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

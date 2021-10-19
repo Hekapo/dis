@@ -1,0 +1,90 @@
+{
+  "clients": [
+    {
+      "clientId": 1,
+      "phone": "123456",
+      "name": "Client1"
+    },
+    {
+      "clientId": 2,
+      "phone": "1234567",
+      "name": "Client2"
+    }
+  ],
+  "drivers": [
+    {
+      "driverId": 1,
+      "phone": "9989829012",
+      "name": "Driver1",
+      "rating": 10,
+      "car": {
+        "carId": 1,
+        "model": "Kia rio",
+        "number": "8080"
+      }
+    },
+    {
+      "driverId": 2,
+      "phone": "888800909",
+      "name": "Driver2",
+      "rating": 6,
+      "car": {
+        "carId": 2,
+        "model": "Ford",
+        "number": "443"
+      }
+    }
+  ],
+  "trips": [
+    {
+      "date": "17.12.2002 15:43",
+      "client": {
+        "clientId": 1,
+        "phone": "123456",
+        "name": "Client1"
+      },
+      "driver": {
+        "driverId": 1,
+        "phone": "9989829012",
+        "name": "Driver1",
+        "rating": 10,
+        "car": {
+          "carId": 1,
+          "model": "Kia rio",
+          "number": "8080"
+        }
+      }
+    },
+    {
+      "date": "17.12.2020 17:11",
+      "client": {
+        "clientId": 2,
+        "phone": "1234567",
+        "name": "Client2"
+      },
+      "driver": {
+        "driverId": 2,
+        "phone": "888800909",
+        "name": "Driver2",
+        "rating": 6,
+        "car": {
+          "carId": 2,
+          "model": "Ford",
+          "number": "443"
+        }
+      }
+    }
+  ],
+  "cars": [
+    {
+      "carId": 1,
+      "model": "Kia rio",
+      "number": "8080"
+    },
+    {
+      "carId": 2,
+      "model": "Ford",
+      "number": "443"
+    }
+  ]
+}
